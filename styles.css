@@ -291,6 +291,8 @@ a {
 }
 
 .hero-media {
+  width: min(390px, 100vw - 40px); /* TWEAK-8 (orig: no width override -> .media-frame's 100% = 350px) */
+  justify-self: center; /* TWEAK-8 (orig: none) */
   aspect-ratio: 4 / 3;
   border-radius: 0;
 }
